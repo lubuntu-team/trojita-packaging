@@ -1,0 +1,29 @@
+TODO
+====
+ - [X] Download latest upstream source
+ - [X] `dh_make`
+ - [X] `dch`
+ - [X] Add minimal debian/control file from the [upstream packaging][1] 
+ - [X] Edit debian/control to deal with some of the required fields
+ - [X] Add Vcs from Phab
+ - [X] Get under `git`. Finally.
+ - [ ] Dependencies
+   - [X] Populate Build-Depends based on requirements from actual compilation
+   - [ ] Run through list of Depends and eliminate anything unnecessary (seems lengthy)
+   - [ ] Add to the above based on decisions regarding optional dependencies below
+ - [ ] Other files…
+ - [ ] Check over copyright really well
+ - [ ] Get in a PPA for initial testing first?
+
+Notes
+=====
+ * There are optional dependencies we might want to turn on by default:
+   * **zlib** for IMAP COMPRESS
+   * **QtKeychain** for secure storage of passwords (in the form of a separate binary plugin)
+   * **ragel**, of which the benefit is not clear ("a pregenerated file is shipped") 
+   * **GpgME++** for PGP
+   * **Mimetic** for S/MIME (goes hand in hand with PGP)
+ * In order to successfully pass all tests (final step in the compilation instructions), X is required.
+ * Upstream does not seem to want to HTTPS their site. Boo, I know.
+
+[1]: http://download.opensuse.org/repositories/home:/jkt-gentoo:/trojita/xUbuntu_16.04/
