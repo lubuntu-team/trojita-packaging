@@ -3,7 +3,7 @@ TODO
  - [X] Download latest upstream source
  - [X] `dh_make`
  - [X] `dch`
- - [X] Add minimal debian/control file from the [upstream packaging][1] 
+ - [X] Add minimal debian/control file from the [upstream packaging](http://download.opensuse.org/repositories/home:/jkt-gentoo:/trojita)
  - [X] Edit debian/control to deal with some of the required fields
  - [X] Add Vcs from Phab
  - [X] Get under `git`. Finally.
@@ -25,5 +25,3 @@ Notes
    * **Mimetic** for S/MIME (goes hand in hand with PGP)
  * In order to successfully pass all tests (final step in the compilation instructions), X is required.
  * Upstream does not seem to want to HTTPS their site. Boo, I know.
-
-[1]: http://download.opensuse.org/repositories/home:/jkt-gentoo:/trojita/xUbuntu_16.04/
