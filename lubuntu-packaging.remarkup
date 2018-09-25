@@ -12,7 +12,7 @@ TODO
    - [ ] Run through list of Depends and eliminate anything unnecessary (seems lengthy)
    - [ ] Add to the above based on decisions regarding optional dependencies below
  - [ ] Compare to [Kubuntu packaging](https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/trojita/) and incorporate anything particularly relevant.
- - [ ] Other files…
+ - [X] Fix rules (the [Kubuntu packaging](https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/trojita/tree/debian/rules) seems overly complicated). 
  - [ ] Check over copyright really well
  - [ ] Get in a PPA for initial testing first?
 
