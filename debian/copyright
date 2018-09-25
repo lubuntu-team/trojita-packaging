@@ -1,24 +1,86 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: trojita
-Source: <url://example.com>
+Source: https://cgit.kde.org/trojita.git
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: <special license>
- <Put the license of the package here indented by 1 space>
- <This follows the format of Description: lines in control file>
- .
- <Including paragraphs>
-
-# If you want to use GPL v2 or later for the /debian/* files use 
-# the following clauses, or change it to suit. Delete these two lines
-Files: debian/*
-Copyright: 2018 Walter Lapchynski <wxl@ubuntu.com>
-License: GPL-2+
+Copyright: 2006 - 2018 Jan Kundrát <jkt@kde.org>
+           2012 - 2017 Thomas Lübking <thomas.luebking@gmail.com>
+           2013 - 2017 Pavol Rohár <pali.rohar@gmail.com>
+           2013 - 2018 Caspar Schutijser <caspar@schutijser.com>
+           2013 - 2018 Stephan Platz <trojita@paalsteek.de>
+           2015 - 2018 Erik Quaeghebeur <kde@equaeghe.nospammail.net>
+           2017 - 2018 Roland Pallai <dap78@magex.hu>
+           2012 - 2017 Yuri Chornoivan <yurchor@ukr.net>
+           2015 - 2016 Heiko Becker <heirecka@exherbo.org>
+           2012 - 2016 Albert Astals Cid <aacid@kde.org>
+           2018 Vicente Bergas <vicencb@gmail.com>
+           2017 Daniel Aleksandersen <code@daniel.priv.no>
+           2017 Elvis Angelaccio <elvis.angelaccio@kde.org>
+           2016 Spencer Brown <spencerbrown991@gmail.com>
+           2016 Michael Palimaka <kensington@gentoo.org>
+           2016 Eloy Cuadra <ecuadra@eloihr.net>
+           2016 Ken Moore <moorekou@gmail.com>
+           2016 Luís Pereira <luis.artur.pereira@gmail.com>
+           2016 Amaury Pouly <amaury.pouly@gmail.com>
+           2016 Sergio Martins <smartins@kde.org>
+           2014 - 2016 Luigi Toscano <luigi.toscano@tiscali.it>
+           2014 - 2015 Lasse Liehu <lasse.liehu@gmail.com>
+           2014 - 2015 Karan Luthra <karanluthra06@gmail.com>
+           2015 Safa Alfulaij <safa1996alfulaij@gmail.com>
+           2015 Andreas Sturmlechner <andreas.sturmlechner@gmail.com>
+           2014 - 2015 Marko Käning <mk-lists@email.de>
+           2014 Illya Kovalevskyy <illya.kovalevskyy@gmail.com>
+           2014 Toby Chen <chenyanjun912@hotmail.com>
+           2014 Alexander Zabolotskikh <snprintfv@gmail.com>
+           2014 Dimitrios Glentadakis <dglent@free.fr>
+           2014 Michael Hall <mhall119@ubuntu.com>
+           2014 Dan Chapman <dpniel@ubuntu.com>
+           2014 Boren Zhang <bobo1993324@gmail.com>
+           2014 Bruno Meneguele <bmeneguele@gmail.com>
+           2013 - 2014 Jai Luthra <me@jailuthra.in>
+           2014 Niklas Wenzel <nikwen.developer@gmail.com>
+           2014 Pavel Sedlák <psedlak@redhat.com>
+           2013 Glad Deschrijver <glad.deschrijver@gmail.com>
+           2014 Yazeed Zoabi <yazeedz.zoabi@gmail.com>
+           2014 Danny Rimmer <utf8snowman@gmail.com>
+           2014 Luke Dashjr <luke+trojita@dashjr.org>
+           2013 Benjamin Kaiser <benjaminjkaiser@gmail.com>
+           2012 - 2013 Peter Amidon <peter@picnicpark.org>
+           2011 - 2012 Thomas Gahr <thomas.gahr@physik.uni-muenchen.de>
+           2012 Shanti Bouchez <shanti@sogilis.com>
+           2012 Mohammed Nafees <nafees.technocool@gmail.com>
+           2013 Sreepriya Chalakkal <sreepriya1111@gmail.com>
+           2013 Stefan Kögl <stefan.koegl@tu-dortmund.de>
+           2013 James Turner <james@calminferno.net>
+           2013 Mayank Jha <mjnovice@gmail.com>
+           2013 André Marcelo Alvarenga <alvarenga@kde.org>
+           2012 - 2013 Ahmed Ibrahim Khalil <ahmedibrahimkhali@gmail.com>
+           2010 - 2013 OpenMFG LLC, dba xTuple
+           2013 Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>
+           2012 Allen Winter <allen.winter@kdab.com>
+           2012 Chusslove Illich (Часлав Илић) <caslav.ilic@gmx.net>
+           2012 Michael Sprauer <Michael@Sprauer.net>
+           2012 Chase Douglas <chase.douglas@canonical.com>
+           2012 Wim Lewis <wiml@hhhh.org>
+           2011 Tomáš Kouba <tomas@jikos.cz>
+           2011 Jun Yang <slickqt@gmail.com>
+           2009, 2011 Jiří Helebrant <helb@helb.cz>
+           2011 Mariusz Fik <fisiu@opensuse.org>
+           2011 Andrew Brouwers <abrouwers@gmail.com>
+           2010 Benson Tsai <btsai@vrwarp.com>
+           2009 Justin J <justin@jjamfd.com>
+           2000 - 2001 Dawit Alemayehu <adawit@kde.org>
+           2001 Rik Hemsley <rik@kde.org>
+           2000 Sven Carstens <s.carstens@gmx.de>
+           2010 Klarälvdalens Datakonsult AB, Stephen Kelly <stephen@kdab.com>
+           2009 Stephen Kelly <steveire@gmail.com>
+           2007 Trolltech ASA
+           2009, 2010, 2012 Nokia Corporation and/or its subsidiary(-ies)
+           2009 Witold Wysota <wysota@wysota.eu.org> 
+License: GPL-3
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
+ the Free Software Foundation; either version 3 of the License, or
  (at your option) any later version.
  .
  This package is distributed in the hope that it will be useful,
@@ -30,9 +92,4 @@ License: GPL-2+
  along with this program. If not, see <https://www.gnu.org/licenses/>
  .
  On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
-# Please avoid picking licenses with terms that are more restrictive than the
-# packaged work, as it may make Debian's contributions unacceptable upstream.
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
