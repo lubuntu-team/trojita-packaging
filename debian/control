@@ -16,7 +16,7 @@ Build-Depends: cmake (>= 2.8.11),
                qttools5-dev,
                ragel,
                zlib1g-dev
-Standards-Version: 4.1.3
+Standards-Version: 4.2.1
 Homepage: http://trojita.flaska.net/
 Vcs-Browser: https://phab.lubuntu.me/source/trojita/
 Vcs-Git: https://phab.lubuntu.me/source/trojita.git
