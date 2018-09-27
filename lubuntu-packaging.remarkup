@@ -11,7 +11,7 @@ TODO
    - [X] Populate Build-Depends based on requirements from actual compilation
    - [X] Run through CMakeLists.txt and add depends as needed.
    - [ ] Add optional depends. We can always remove them if needed.
-     - [ ] Figure out what's up with GpgMe++.
+     - [ ] This requires making a patch like [this section](https://cgit.kde.org/trojita.git/tree/CMakeLists.txt?id=feb264cda151a7dfbf39a2d7c774f4b7cc0b6dff#n92) of the upstream code to account for the fact that upstream GPGME rolled in various bindings, including the Qt ones. The initial release will then be 0.7-0ubuntu1.
  - [X] Compare to [Kubuntu packaging](https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/trojita/) and incorporate anything particularly relevant.
  - [X] Fix rules (the [Kubuntu packaging](https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/trojita/tree/debian/rules) seems overly complicated). 
  - [X] Check over copyright really well
@@ -19,6 +19,5 @@ TODO
 
 Notes
 =====
- * Something is up with GpgME++ in that in Ubuntu/Debian seems to lack the required KF5GpgmeppConfig.cmake, and instead having QGpgmeppConfig.cmake, so that will need to be fixed.
  * In order to successfully pass all tests (final step in the compilation instructions), X is required.
  * Upstream does not seem to want to HTTPS their site. Boo, I know.
