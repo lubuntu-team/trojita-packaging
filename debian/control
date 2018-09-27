@@ -33,3 +33,9 @@ Description: Trojita is a fast Qt IMAP e-mail client.
   * Is efficient — be it at conserving the network bandwidth, keeping memory use at a reasonable level or not hogging the system's CPU.
   * Can be used on many platforms. One UI is not enough for everyone, but our IMAP core works fine on anything from desktop computers to cell phones and big ERP systems.
   * Plays well with the rest of the ecosystem. We don't like reinventing wheels, but when the existing wheels quite don't fit the tracks, we're not afraid of making them work.
+
+Package: trojita-plugin-qtkeychain
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plugin for secure password storage for Trojitá
+ This plugin offers secure password storage by using QtKeyChain.
