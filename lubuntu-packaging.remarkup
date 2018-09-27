@@ -7,14 +7,15 @@ TODO
  - [X] Edit debian/control to deal with some of the required fields
  - [X] Add Vcs from Phab
  - [X] Get under `git`. Finally.
- - [ ] Dependencies
+ - [X] Dependencies
    - [X] Populate Build-Depends based on requirements from actual compilation
    - [X] Run through CMakeLists.txt and add depends as needed.
-   - [ ] Add optional depends. We can always remove them if needed.
-     - [ ] This requires making a patch like [this section](https://cgit.kde.org/trojita.git/tree/CMakeLists.txt?id=feb264cda151a7dfbf39a2d7c774f4b7cc0b6dff#n92) of the upstream code to account for the fact that upstream GPGME rolled in various bindings, including the Qt ones. The initial release will then be 0.7-0ubuntu1.
+   - [X] Add optional depends. We can always remove them if needed.
+     - [X] This requires making a patch like [this section](https://cgit.kde.org/trojita.git/tree/CMakeLists.txt?id=feb264cda151a7dfbf39a2d7c774f4b7cc0b6dff#n92) of the upstream code to account for the fact that upstream GPGME rolled in various bindings, including the Qt ones. The initial release will then be 0.7-0ubuntu1.
  - [X] Compare to [Kubuntu packaging](https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/trojita/) and incorporate anything particularly relevant.
  - [X] Fix rules (the [Kubuntu packaging](https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/trojita/tree/debian/rules) seems overly complicated). 
  - [X] Check over copyright really well
+ - [ ] Extra double check compilation and what have you.
  - [ ] Get in a PPA for initial testing first?
 
 Notes
