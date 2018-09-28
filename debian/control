@@ -51,6 +51,12 @@ Description: Trojitá is a fast Qt IMAP e-mail client.
   * Plays well with the rest of the ecosystem. We don't like reinventing wheels,
     but when the existing wheels quite don't fit the tracks, we're not afraid of
     making them work.
+ .
+ Trojitá comes standard with support for:
+  * Cryptography (OpenPGP and S/MIME)
+  * Offline IMAP support
+  * Bandwidth-saving mode
+  * IMAP over SSH
 
 Package: trojita-plugin-qtkeychain
 Architecture: any
