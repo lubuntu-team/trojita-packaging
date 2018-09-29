@@ -83,7 +83,7 @@ Files: cmake/FindCXXFeatures.cmake
 Copyright: 2011 - 2013 Rolf Eike Beer <eike@sf-mail.de>
            2012 Andreas Weis
            2013 Jan Kundrát
-License: BSD
+License: BSD-3-clause
 
 Files: po/trojita_common_ca*
 Copyright: 2014 - 2016 Antoni Bella Pérez <antonibella5@yahoo.com>
@@ -92,6 +92,7 @@ License: LGPL-2.1+
 
 Files: po/trojita_common_uk.po
 Copyright: 2012 - 2016 Yuri Chornoivan <yurchor@ukr.net>
+License: LGPL-2.1+
 
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
@@ -110,7 +111,7 @@ License: GPL-3+
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-License: BSD
+License: BSD-3-clause
  Copyright (c) The Regents of the University of California.
  All rights reserved.
  .
