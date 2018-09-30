@@ -1,4 +1,4 @@
-usr/binbe.contacts
+usr/bin/be.contacts
 usr/bin/trojita
 usr/lib/*/libtrojita_plugins.so*
 usr/share/applications/trojita.desktop
