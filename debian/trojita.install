@@ -1,5 +1,4 @@
-#! /usr/bin/dh-exec
 usr/binbe.contacts
 usr/bin/trojita
 usr/lib/*/libtrojita_plugins.so*
-trojita-DesktopGui.desktop => /usr/share/applications/trojita.desktop
+usr/share/applications/trojita.desktop

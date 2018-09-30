@@ -5,7 +5,6 @@ Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Walter Lapchynski <wxl@ubuntu.com>
 Build-Depends: cmake (>= 2.8.11),
                debhelper (>= 11),
-               dh-exec,
                git,
                gpg-agent,
                libgpg-error-dev,
