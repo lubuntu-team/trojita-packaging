@@ -35,7 +35,8 @@ Depends: libgpg-error,
          libqt5webkit5,
          ragel,
          zlib1g,
-         ${misc:Depends}
+         ${misc:Depends},
+         ${shlibs:Depends}
 Suggests: trojita-plugin-qtkeychain
 Description: Trojitá is a fast Qt IMAP e-mail client.
  Trojitá is a Qt IMAP e-mail client which:
@@ -62,7 +63,7 @@ Description: Trojitá is a fast Qt IMAP e-mail client.
 
 Package: trojita-plugin-qtkeychain
 Architecture: any
-Depends: qt5keychain, ${misc:Depends}
+Depends: qt5keychain, ${misc:Depends}, ${shlibs:Depends}
 Description: Plugin for secure password storage for Trojitá.
  This plugin offers secure password storage for the Trojitá e-mail client by
  using QtKeyChain.
