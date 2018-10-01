@@ -1,4 +1,5 @@
+#!/usr/bin/dh-exec
 usr/bin/be.contacts
 usr/bin/trojita
-usr/lib/*/libtrojita_plugins.so*
+usr/lib/libtrojita_plugins.so* /usr/lib/trojita/${DEB_HOST_MULTIARCH}
 usr/share/applications/trojita.desktop
