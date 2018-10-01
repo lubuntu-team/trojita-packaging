@@ -3,3 +3,6 @@ export DH_VERBOSE = 1
 
 %:
 	dh $@ --buildsystem=cmake
+
+override_dh_auto_test:
+	xvfb-run -a dh_auto_test

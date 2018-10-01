@@ -19,6 +19,7 @@ Build-Depends: cmake (>= 2.8.11),
                qtbase5-dev (>= 5.2),
                qttools5-dev,
                ragel,
+               xvfb,
                zlib1g-dev
 Standards-Version: 4.2.1
 Homepage: http://trojita.flaska.net/
