@@ -28,9 +28,9 @@ Vcs-Git: https://phab.lubuntu.me/source/trojita.git
 
 Package: trojita
 Architecture: any
-Depends: libgpg-error,
-         libgpgme,
-         libgpgmepp,
+Depends: libgpg-error0,
+         libgpgme11,
+         libgpgmepp6,
          libmimetic,
          libqt5svg5,
          libqt5webkit5,
