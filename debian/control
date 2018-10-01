@@ -31,7 +31,7 @@ Architecture: any
 Depends: libgpg-error0,
          libgpgme11,
          libgpgmepp6,
-         libmimetic,
+         libmimetic0v5,
          libqt5svg5,
          libqt5webkit5,
          ragel,
