@@ -15,8 +15,8 @@ TODO
  - [X] Compare to [Kubuntu packaging](https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/trojita/) and incorporate anything particularly relevant.
  - [X] Fix rules (the [Kubuntu packaging](https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/trojita/tree/debian/rules) seems overly complicated). 
  - [X] Check over copyright really well
- - [ ] Test package building
-   - [ ] Fix lintian warnings
+ - [X] Test package building
+   - [X] Fix lintian warnings
  - [ ] Get in a PPA for initial testing first?
 
 Notes
