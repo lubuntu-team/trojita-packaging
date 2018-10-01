@@ -17,7 +17,13 @@ TODO
  - [X] Check over copyright really well
  - [X] Test package building
    - [X] Fix lintian warnings
- - [ ] Get in a PPA for initial testing first?
+ - [X] Get in a PPA for initial testing
+ - [ ] Test
+ - [ ] Roll in stuff from the [Debian LXQt Team's packaging](https://salsa.debian.org/lxqt-team/trojita/tree/experimental-snapshots/latest/debian) but be careful of things only required by their build system and/or because they're using snapshots, such as `--with quilt` for `dh` and source/format = 1.0.
+ - [ ] Test package building again
+ - [ ] Put in a PPA again
+ - [ ] Test
+ - [ ] Release
 
 Notes
 =====
