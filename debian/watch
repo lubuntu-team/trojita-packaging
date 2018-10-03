@@ -1,4 +1,4 @@
-version=3
-opts=pgpsigurlmangle=s/$/.asc/ \
-http://sf.net/trojita/trojita-([0-9.]+)\.tar.xz
+version=4
+opts=pgpmode=auto
+http://sf.net/trojita/trojita-([0-9.]+)\.tar\.xz
 
