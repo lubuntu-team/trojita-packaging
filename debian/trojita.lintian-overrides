@@ -1,2 +1,4 @@
-trojita: binary-without-manpage usr/bin/be.contacts
-trojita: binary-without-manpage usr/bin/trojita
+# we will provide upstream manpages if available
+trojita binary: binary-without-manpage usr/bin/be.contacts
+trojita binary: binary-without-manpage usr/bin/trojita
+
