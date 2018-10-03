@@ -3,5 +3,5 @@ usr/share/appdata/trojita.appdata.xml usr/share/metadata/
 usr/share/applications/
 
 usr/lib/trojita/
-usr/lib/libtrojita_plugins.so usr/lib/trojita/
+usr/lib/libtrojita_plugins.so
 

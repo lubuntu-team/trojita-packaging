@@ -2,3 +2,5 @@
 trojita binary: binary-without-manpage usr/bin/be.contacts
 trojita binary: binary-without-manpage usr/bin/trojita
 trojita binary: package-name-doesnt-match-sonames libtrojita-plugins
+trojita binary: shlib-without-versioned-soname usr/lib/libtrojita_plugins.so libtrojita_plugins.so
+
