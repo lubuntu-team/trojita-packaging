@@ -2,5 +2,6 @@ usr/bin/
 usr/share/appdata/trojita.appdata.xml usr/share/metadata
 usr/share/applications/
 
-usr/lib/*/trojita
+usr/lib/
+usr/lib/trojita/
 
