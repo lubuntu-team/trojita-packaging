@@ -1,0 +1,22 @@
+Description: Make libs private.
+Author: Walter Lapchynski <wxl@ubuntu.com>
+Last-Update: 2018-10-02
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -125,14 +125,10 @@ else()
+     message(STATUS "Could not find QtKeychain library")
+ endif()
+ 
+-if(NOT DEFINED CMAKE_INSTALL_LIBDIR)
+-    set(CMAKE_INSTALL_LIBDIR "lib${LIB_SUFFIX}")
+-endif()
++set(CMAKE_INSTALL_LIBDIR "${CMAKE_INSTALL_LIBDIR}/trojita")
+ mark_as_advanced(CMAKE_INSTALL_LIBDIR)
+ 
+-if(NOT CMAKE_INSTALL_PLUGIN_DIR)
+-    set(CMAKE_INSTALL_PLUGIN_DIR "${CMAKE_INSTALL_LIBDIR}/trojita")
+-endif()
++set(CMAKE_INSTALL_PLUGIN_DIR "${CMAKE_INSTALL_LIBDIR}")
+ mark_as_advanced(CMAKE_INSTALL_PLUGIN_DIR)
+ 
+ if(NOT PLUGIN_DIR)
