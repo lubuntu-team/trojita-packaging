@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com> 
 Uploaders: Walter Lapchynski <wxl@ubuntu.com>
 Build-Depends: cmake (>= 2.8.11),
-               debhelper (>= 11),
-               dh-exec,
+               debhelper (>= 11~),
+               extra-cmake-modules,
                git,
                gpg-agent,
                libgpg-error-dev,
@@ -14,11 +14,14 @@ Build-Depends: cmake (>= 2.8.11),
                libmimetic-dev,
                libqt5svg5-dev,
                libqt5webkit5-dev,
+               libssl-dev,
                pkg-config,
                qt5keychain-dev,
                qtbase5-dev (>= 5.2),
                qttools5-dev,
+               qttools5-dev-tools,
                ragel,
+               xauth,
                xvfb,
                zlib1g-dev
 Standards-Version: 4.2.1
@@ -28,19 +31,14 @@ Vcs-Git: https://phab.lubuntu.me/source/trojita.git
 
 Package: trojita
 Architecture: any
-Depends: libgpg-error0,
-         libgpgme11,
-         libgpgmepp6,
-         libmimetic0v5,
-         libqt5svg5,
-         libqt5webkit5,
-         ragel,
-         zlib1g,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Suggests: trojita-plugin-qtkeychain
-Description: Trojitá is a fast Qt IMAP e-mail client.
- Trojitá is a Qt IMAP e-mail client which:
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         libqt5sql5-sqlite,
+         trojita-data (= ${source:Version})
+Recommends: trojita-l10n,
+            ofono
+Description: Fast Qt IMAP e-mail client.
+ Trojitá is a fast Qt IMAP e-mail client which:
   * Enables you to access your mail anytime, anywhere.
   * Does not slow you down. If we can improve the productivity of an e-mail
     user, we better do.
@@ -61,10 +59,24 @@ Description: Trojitá is a fast Qt IMAP e-mail client.
   * Offline IMAP support
   * Bandwidth-saving mode
   * IMAP over SSH
+ .
+ This package contains the binaries.
 
-Package: trojita-plugin-qtkeychain
-Architecture: any
-Depends: qt5keychain, ${misc:Depends}, ${shlibs:Depends}
-Description: Plugin for secure password storage for Trojitá.
- This plugin offers secure password storage for the Trojitá e-mail client by
- using QtKeyChain.
+Package: trojita-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Fast Qt IMAP e-mail client (data files).
+ Trojitá is a fast Qt IMAP e-mail client.
+ .
+ This package contains the data files.
+
+Package: trojita-l10n
+Architecture: all
+Multi-Arch: foreign
+Section: localization
+Depends: ${misc:Depends}
+Description: Fast Qt IMAP e-mail client (localization).
+ Trojitá is a fast Qt IMAP e-mail client.
+ .
+ This package contains the localization files.
