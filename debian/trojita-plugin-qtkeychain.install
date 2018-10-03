@@ -1,2 +1,0 @@
-#!/usr/bin/dh-exec
-usr/lib/trojita/trojita_plugin_QtKeychainPasswordPlugin.so* /usr/lib/trojita/${DEB_HOST_MULTIARCH}
