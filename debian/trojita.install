@@ -1,7 +1,7 @@
 usr/bin/
-usr/share/appdata/trojita.appdata.xml usr/share/metadata
+usr/share/appdata/trojita.appdata.xml usr/share/metadata/
 usr/share/applications/
 
-usr/lib/
 usr/lib/trojita/
+usr/lib/libtrojita_pluins.so usr/lib/trojita/
 
