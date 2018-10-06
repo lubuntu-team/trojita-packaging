@@ -1,6 +1,6 @@
 trojita (0.7-0ubuntu1) cosmic; urgency=medium
 
   * Initial release.
-  * Include support for GpgME's native C++ bindings. 
+  * Include support for GpgME's native C++ bindings.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 03 Oct 2018 09:17:48 -0700

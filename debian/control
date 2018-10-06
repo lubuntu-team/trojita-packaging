@@ -1,7 +1,7 @@
 Source: trojita
 Section: mail
 Priority: optional
-Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com> 
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Walter Lapchynski <wxl@ubuntu.com>
 Build-Depends: cmake (>= 2.8.11),
                debhelper (>= 11~),
