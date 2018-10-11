@@ -1,7 +1,7 @@
 trojita (0.7-0ubuntu2) cosmic; urgency=medium
 
-  * Fix debian/rules to explciitly allow for encryption support. 
-  * Remove pointless postinst. 
+  * Fix debian/rules to explicitly allow for encryption support.
+  * Remove pointless postinst.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 10 Oct 2018 09:22:18 -0700
 
