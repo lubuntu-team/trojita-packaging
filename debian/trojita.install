@@ -1,2 +1,7 @@
 usr/bin/
 usr/share/applications/
+usr/share/metainfo/org.kde.trojita.appdata.xml
+usr/lib/*/libtrojita_plugins.so
+usr/lib/*/trojita/trojita_plugin_AbookAddressbookPlugin.so
+usr/lib/*/trojita/trojita_plugin_ClearTextPasswordPlugin.so
+usr/lib/*/trojita/trojita_plugin_QtKeychainPasswordPlugin.so
