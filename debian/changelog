@@ -1,3 +1,9 @@
+trojita (0.7-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Remove reverse-applicable patches.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 30 Mar 2019 22:02:45 -0500
+
 trojita (0.7-0ubuntu2) cosmic; urgency=medium
 
   * Fix debian/rules to explicitly allow for encryption support.
